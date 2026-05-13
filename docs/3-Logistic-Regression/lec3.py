@@ -5,10 +5,16 @@ import pandas as pd
 url = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
 df = pd.read_csv(url)
 
-print(df.head())
+df.head()
 
-weight = 10 
-bias = -45
+x_column_name = 'Age'
+y_column_name = 'Survived'
+
+x = df[x_column_name].to_numpy()
+y = df[y_column_name].to_numpy()
+
+weight = 5
+bias = -7
 
 # Linear part
 z = weight * x + bias
@@ -34,12 +40,11 @@ plt.plot(x_curve, p_curve, linewidth=3, label="Sigmoid model")
 # Decision threshold
 plt.axhline(0.5, linestyle="--", alpha=0.7)
 
-plt.xlabel("Study hours")
-plt.ylabel("Probability of passing")
-plt.title("Logistic Regression: Pass / Fail Prediction")
+plt.xlabel("Age")
+plt.ylabel("Probability of survised")
+plt.title("Logistic Regression: Pass/ Survised Prediction")
 
 plt.grid(True, alpha=0.3)
 plt.legend()
 
 plt.show()
-
