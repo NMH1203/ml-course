@@ -19,8 +19,8 @@ Clone [the repository](https://github.com/USTH-classroom/ml-course) `git clone g
 | # | Topic | Slides / Materials | Notebook | Status |
 |--|------|--------------------|----------|----------|
 | 1 | Introduction to ML & Data Mining | [📄 Slides](./1-Introduction-to-Machine-Learning-and-Data-Mining/01-introduction.pdf) | [Notebook](./1-Introduction-to-Machine-Learning-and-Data-Mining/01.md) | ✅ Available | 
-| 2 | Linear Regression | [Coming soon](./coming-soon.md) | [Coming soon](./coming-soon.md) | 🚧 Coming soon | 
-| 3 | Logistic Regression | [Coming soon](./coming-soon.md) | [Coming soon](./coming-soon.md) | 🚧 Coming soon | 
+| 2 | Linear Regression | [📄 Slides](./2-Linear-Regression/02-lin-reg.pdf) | [Notebook](./2-Linear-Regression/02.md) | ✅ Available | 
+| 3 | Logistic Regression | [📄 Slides](./3-Logistic-Regression/3-log-reg.pdf) | [Notebook](./3-Logistic-Regression/03.md) | ✅ Available | 
 | 4 | Regularization | [Coming soon](./coming-soon.md) | [Coming soon](./coming-soon.md) | 🚧 Coming soon | 
 | 5 | PCA | [Coming soon](./coming-soon.md) | [Coming soon](./coming-soon.md) | 🚧 Coming soon | 
 | 6 | Neural Networks | [Coming soon](./coming-soon.md) | [Coming soon](./coming-soon.md) | 🚧 Coming soon | 
