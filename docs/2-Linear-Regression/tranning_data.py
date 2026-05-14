@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from datasets import load_dataset
+
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import PolynomialFeatures
@@ -21,6 +22,7 @@ df['Day_Index'] = np.arange(len(df))
 
 X_column = ["Day_Index"]
 Y_column = ["price"] 
+
 #not use the row when have missing data
 df = df.dropna()
 

@@ -5,7 +5,6 @@ import pandas as pd
 url = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
 df = pd.read_csv(url)
 
-df.head()
 
 x_column_name = 'Age'
 y_column_name = 'Survived'
@@ -13,8 +12,8 @@ y_column_name = 'Survived'
 x = df[x_column_name].to_numpy()
 y = df[y_column_name].to_numpy()
 
-weight = 5
-bias = -7
+weight = -0.04
+bias = 0.5
 
 # Linear part
 z = weight * x + bias
@@ -25,13 +24,13 @@ p = 1 / (1 + np.exp(-z))
 # Predicted classes
 y_pred = (p > 0.5).astype(int)
 
-plt.figure(figsize=(10,6))
+plt.figure(figsize=(10, 5))
 
 # Real data
 plt.scatter(x, y, s=120, label="Real data")
 
 # Smooth sigmoid curve
-x_curve = np.linspace(0, 9, 300)
+x_curve = np.linspace(0, 30, 300)
 z_curve = weight * x_curve + bias
 p_curve = 1 / (1 + np.exp(-z_curve))
 
