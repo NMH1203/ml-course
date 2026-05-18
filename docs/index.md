@@ -23,7 +23,7 @@ Clone [the repository](https://github.com/USTH-classroom/ml-course) `git clone g
 | 3 | Logistic Regression | [📄 Slides](./3-Logistic-Regression/3-log-reg.pdf) | [Notebook](./3-Logistic-Regression/03.md) | ✅ Available | 
 | 4 | Regularization | [📄 Slides](./4-Regularization/4-reg.pdf) | [Notebook](./4-Regularization/04.md) | ✅ Available | 
 | 5 | PCA | [📄 Slides](./5-Principal-Component-Analysis/5-dim-reduc.pdf) | [Notebook](./5-Principal-Component-Analysis/05.md) | ✅ Available | 
-| 6 | Neural Networks | [Coming soon](./coming-soon.md) | [Coming soon](./coming-soon.md) | 🚧 Coming soon | 
+| 6 | Neural Networks | [📄 Slides](./6-Neural-Networks/6-nns.pdf) | [Notebook](./6-Neural-Networks/06.md) | ✅ Available | 
 | 7 | Bayes Classification | [Coming soon](./coming-soon.md) | [Coming soon](./coming-soon.md) | 🚧 Coming soon | 
 
 ---
@@ -47,20 +47,19 @@ Clone [the repository](https://github.com/USTH-classroom/ml-course) `git clone g
 |----------|--------|-------------|
 | Assignments / Exercises | 30% | Short practical exercises and notebooks during the course |
 | Group Project | 30% | Mini ML project with dataset, model, evaluation, error analysis, and presentation |
-| Final Exam | 30% | Theoretical and practical understanding of the main ML concepts |
+| Final/Midterm Exam | 30% | Theoretical and practical understanding of the main ML concepts |
 | Participation | 10% | Attendance, questions, discussions, and active participation |
 
 ---
 
 ## Group Project
 
-[📌 Group Project Instructions](./coming-soon.md)
+[📌 Group Project Instructions](./8-Group-Projects/group_project_ml_ai.md)
 
-- Project topics will be provided
-- Groups of 2–3 students (but can be also solo!)
+- Project topics are provided
+- Groups of 2–4 students (but can be also solo!)
 - Final presentation required
-
-👉 Details coming soon
+- Deadline to be announced..
 
 ---
 
